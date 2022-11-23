@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# 단위테스트와 빌드 과정 중 py 파일이 실행될 때 생성
+*.pyc*
+# 파이참 소스 코드 작성시 생성되는 폴더
+.idea/
